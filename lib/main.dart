@@ -5,7 +5,7 @@ import 'package:online_learning_application/providers/course_provider.dart';
 import 'package:online_learning_application/providers/cart_provider.dart';
 import 'package:online_learning_application/utils/appcolor.dart';
 import 'package:online_learning_application/utils/app_theme.dart';
-import 'package:online_learning_application/views/main_navigation.dart';
+import 'package:online_learning_application/views/splash_screen.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
@@ -39,7 +39,7 @@ class MyApp extends StatelessWidget {
           title: 'Online Learning App',
           debugShowCheckedModeBanner: false,
           theme: AppTheme.lightTheme,
-          home: const MainNavigation(),
+          home: const SplashScreen(),
         ),
       ),
     );

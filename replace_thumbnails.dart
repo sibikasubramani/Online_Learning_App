@@ -21,6 +21,8 @@ void main() {
     'Cloud Computing': 'assests/images/AWS THUMBNAIL.png',
     'DSA': 'assests/images/DATA STRUCTURES & ALGORITHMS THUMBNAIL.png',
     'Cyber Security': 'assests/images/ETHICAL HACKING THUMBNAIL.png',
+    
+
   };
 
   final regex = RegExp(r"category:\s*'([^']+)',\s*thumbnail:\s*'([^']+)',");
